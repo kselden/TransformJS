@@ -6,26 +6,20 @@
   "homepage": "http://github.com/sproutcore/TransformJS",
   "author": "Majd Taby",
   "version": "1.0.beta.2",
-  
+
   "dependencies": {
     "jquery": "~> 1.6",
     "spade": "~> 1.0"
   },
   "dependencies:development": {
     "spade-qunit": "~> 1.0.0"
-  },  
+  },
   "bpm:build": {
     "bpm_libs.js": {
       "directories": [
         "lib"
       ],
       "minifier": "uglify-js"
-    },
-    "sproutcore-touch.js": {
-      "minifier": "uglify-js",
-      "include": [
-        "spade"
-      ]
     }
   }
 }
